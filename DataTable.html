@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<body style="background-color:gray;">
+<meta charset = "UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scal=1.0">
+<title>data table</title>
+<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+<link rel = "stylesheet" href = "https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css">
+</head>
+<body>
+<div class ="container">
+<div class ="row">
+
+
+<table  class="table table-striped" style="width:100%">
+        <h1>Masterlist</h1>
+		<thead>
+            <tr>
+                <th>Full Name</th>
+                <th>Rebound</th>
+                <th>Assist</th>
+                <th>Points</th>
+				<th>Foul</th>
+				<th>Field Goals</th>	
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+               <td>Kobe Bryant</td>
+                <td>12</td>
+                <td>8</td>
+                <td>35</td>
+				<td>2</td>
+				<td>7/8</td>
+            </tr>
+             <tr>
+               <td>Michael Jordan</td>
+                <td>10</td>
+                <td>5</td>
+                <td>40</td>
+				<td>3</td>
+				<td>8/9</td>
+            </tr>
+             <tr>
+               <td>Lebron James</td>
+                <td>12</td>
+                <td>10</td>
+                <td>38</td>
+				<td>4</td>
+				<td>11/13</td>
+            </tr>
+              <tr>
+               <td>Kyrie Irving</td>
+                <td>9</td>
+                <td>8</td>
+                <td>36</td>
+				<td>3</td>
+				<td>6/8</td>
+            </tr>
+            <tr>
+               <td>Rusell Westbrook</td>
+                <td>8</td>
+                <td>5</td>
+                <td>29</td>
+				<td>3</td>
+				<td>4/8</td>
+            </tr>
+              <tr>
+               <td>Stephen Curry</td>
+                <td>9</td>
+                <td>13</td>
+                <td>56</td>
+				<td>4</td>
+				<td>9/12</td>
+            </tr>
+             <tr>
+               <td>Damian Lillard</td>
+                <td>6</td>
+                <td>8</td>
+                <td>24</td>
+				<td>2</td>
+				<td>5/8</td>
+            </tr>
+              <tr>
+               <td>Anthony Davis</td>
+                <td>12</td>
+                <td>8</td>
+                <td>25</td>
+				<td>5</td>
+				<td>5/9</td>
+			</tr>
+              <tr>
+               <td>Giannis Atetokounmpo</td>
+                <td>13</td>
+                <td>7</td>
+                <td>34</td>
+				<td>4</td>
+				<td>7/12</td>
+            </tr>
+            </tr>
+			 </tbody>
+			 </table>
+
+<script src ="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src ="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+<script src ="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
+<script>
+$(document).ready( function () {
+    $('.table').DataTable();
+});
+</script>
+
+
+
+</div>
+</div>
+</body>
+</html>
+
